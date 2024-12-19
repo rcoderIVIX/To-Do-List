@@ -36,7 +36,7 @@ makeProject.addEventListener("click",()=>{
 
     let deleteAll = document.createElement("button")
     deleteAll.textContent = "Delete All Entries?"
-    deleteAll.classList.add("btn2")
+    deleteAll.classList.add("btn3")
     wrapper.appendChild(deleteAll)
 
     deleteAll.addEventListener("click", ()=>{
@@ -67,7 +67,7 @@ makeProject.addEventListener("click",()=>{
             taskPriority.placeholder = "Task Priority..."
 
             let addTask = document.createElement("button")
-            addTask.classList.add("btn2")
+            addTask.classList.add("btn4")
             addTask.textContent = "Add Task to Project"
 
             tasksWindow.appendChild(taskTitle)
