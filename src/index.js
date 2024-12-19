@@ -1,3 +1,17 @@
+
+import { create } from "./dom";
+import { project, todo,} from "./logic";
 import "./styles.css";
 
-console.log("Hello world, if you can see this then it works.")
+create()
+
+
+
+
+let newProject = new project("My Fitness")
+
+let actionList = new todo("Lifting", "Lifiting weights for arms and back", "Tomorrow", "High-Priority")
+
+
+
+
